@@ -1,0 +1,16 @@
+
+spring:
+  rabbitmq:
+    host: 112.35.144.201
+    port: 5672
+    username: smlz
+    password: smlz
+    ##\u4EA4\u6362\u673A\u4E0D\u5B58\u5728\u7684\u8BDD \u4F1A\u8D70confirm\u673A\u5236    \u4EA4\u6362\u673A\u5B58\u5728\u4F46\u662F\u961F\u5217\u4E0D\u5B58\u5728\u5219\u8D70return
+    publisher-returns: true
+    publisher-confirm-type: correlated
+    template:
+      mandatory: true
+    connection-timeout: 1000000
+    virtual-host: zxkj
+server:
+  port: 8082

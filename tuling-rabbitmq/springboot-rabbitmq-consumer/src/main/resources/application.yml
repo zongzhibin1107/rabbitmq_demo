@@ -1,0 +1,24 @@
+
+spring:
+  rabbitmq:
+    host: 112.35.144.201
+    port: 5672
+    username: smlz
+    password: smlz
+    connection-timeout: 1000000
+    virtual-host: zxkj
+
+    ##\u914D\u7F6E\u624B\u52A8\u7B7E\u6536
+    listener:
+      simple:
+        acknowledge-mode: manual
+        concurrency: 5
+        max-concurrency: 10
+      direct:
+        prefetch:
+
+
+
+
+server:
+  port: 8081

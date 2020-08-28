@@ -1,0 +1,19 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: delay-product
+  rabbitmq:
+    host: 112.35.144.201
+    port: 5672
+    virtual-host: zxkj
+    username: smlz
+    password: smlz
+    listener:
+      simple:
+        concurrency: 5
+        max-concurrency: 10
+        acknowledge-mode: manual
+        prefetch: 1
+        default-requeue-rejected: false

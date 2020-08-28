@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/delay-order/delay-order.iml" filepath="$PROJECT_DIR$/delay-order/delay-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/delay-product/delay-product.iml" filepath="$PROJECT_DIR$/delay-product/delay-product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbitmq-elegant/rabbitmq-elegant.iml" filepath="$PROJECT_DIR$/rabbitmq-elegant/rabbitmq-elegant.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbitmq-quickstart/rabbitmq-quickstart.iml" filepath="$PROJECT_DIR$/rabbitmq-quickstart/rabbitmq-quickstart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-rabbitmq/springboot-rabbitmq.iml" filepath="$PROJECT_DIR$/springboot-rabbitmq/springboot-rabbitmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-rabbitmq-consumer/springboot-rabbitmq-consumer.iml" filepath="$PROJECT_DIR$/springboot-rabbitmq-consumer/springboot-rabbitmq-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-rabbitmq-consumer-01/springboot-rabbitmq-consumer-01.iml" filepath="$PROJECT_DIR$/springboot-rabbitmq-consumer-01/springboot-rabbitmq-consumer-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tuling-rabbitmq.iml" filepath="$PROJECT_DIR$/tuling-rabbitmq.iml" />
+    </modules>
+  </component>
+</project>
